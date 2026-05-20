@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 5,
+    "xz_spread": 6,
+    "y_spread": 0,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": { "Name": "minecraft:dead_bush" }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": ["minecraft:air"]
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "bloodlinesae:bloodline_grass_block",
+                  "bloodlinesae:bloodline_dirt",
+                  "bloodlinesae:bloodline_grass_block_official",
+                  "bloodlinesae:bloodline_dirt_official",
+                  "bloodlinesae:bloodline_mud",
+                  "bloodlinesae:bloodline_mud2"
+                ],
+                "offset": [0, -1, 0]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

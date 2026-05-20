@@ -1,0 +1,21 @@
+﻿{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "side": "bloodlinesae:block/bloodline_log_official",
+    "end": "bloodlinesae:block/bloodline_log_official_top",
+    "particle": "bloodlinesae:block/bloodline_log_official"
+  },
+  "elements": [
+    {
+      "from": [1, 1, 0],
+      "to":   [15, 15, 2],
+      "faces": {
+        "north": {"uv": [1, 1, 15, 15], "texture": "#end"},
+        "east":  {"uv": [0, 1, 2, 15], "texture": "#side"},
+        "west":  {"uv": [0, 1, 2, 15], "texture": "#side"},
+        "up":    {"uv": [1, 0, 15, 2], "texture": "#side", "rotation": 270},
+        "down":  {"uv": [1, 0, 15, 2], "texture": "#side", "rotation": 90}
+      }
+    }
+  ]
+}

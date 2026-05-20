@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": { "cross": "bloodlinesae:block/bloodline_branch" }
+}

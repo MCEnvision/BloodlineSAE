@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "bloodlinesae:block/bloodline_log_official_top",
+    "side": "bloodlinesae:block/bloodline_log_official"
+  }
+}

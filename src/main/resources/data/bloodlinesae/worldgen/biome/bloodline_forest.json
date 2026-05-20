@@ -1,0 +1,69 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.3,
+  "temperature_modifier": "none",
+  "downfall": 0.6,
+  "effects": {
+    "fog_color": 7012871,
+    "sky_color": 1704962,
+    "water_color": 3801098,
+    "water_fog_color": 2032131,
+    "foliage_color": 4853259,
+    "grass_color": 4853259,
+    "ambient_sound": "bloodlinesae:wendigo.breathing",
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 4800,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "additions_sound": {
+      "sound": "bloodlinesae:wendigo.growl_low",
+      "tick_chance": 0.0009
+    },
+    "particle": {
+      "options": {
+        "type": "bloodlinesae:bloodline_drift"
+      },
+      "probability": 0.03
+    }
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": ["minecraft:cave", "minecraft:cave_extra_underground", "minecraft:canyon"]
+  },
+  "features": [
+    [],
+    [
+      "bloodlinesae:bloodline_landfill_placed"
+    ],
+    [
+      "bloodlinesae:bloodline_mud_puddles_placed"
+    ],
+    [],
+    [],
+    [],
+    [
+      "bloodlinesae:bloodline_crimstone_placed"
+    ],
+    [],
+    [],
+    [
+      "bloodlinesae:bloodline_rock_formations_placed",
+      "bloodlinesae:bloodline_branching_trees_placed",
+      "bloodlinesae:bloodline_dead_bushes_placed",
+      "bloodlinesae:bloodline_bone_piles_placed"
+    ],
+    []
+  ]
+}

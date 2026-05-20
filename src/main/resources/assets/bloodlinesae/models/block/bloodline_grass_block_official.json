@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top":    "bloodlinesae:block/bloodline_grass_official_top",
+    "side":   "bloodlinesae:block/bloodline_grass_official_side",
+    "bottom": "bloodlinesae:block/bloodline_dirt_official"
+  }
+}

@@ -1,0 +1,26 @@
+# Local mod-library source folder; only ./libs is wired into Gradle and shipped.
+dependencies/
+
+# Gradle / build outputs
+.gradle/
+build/
+out/
+
+# Forge dev runtime working dirs
+run/
+run-data/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.eclipse/
+.settings/
+.classpath
+.project
+
+# OS junk
+.DS_Store
+Thumbs.db

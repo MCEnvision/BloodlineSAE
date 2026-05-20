@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          { "weight": 3, "data": { "Name": "bloodlinesae:bloodline_mud" } },
+          { "weight": 2, "data": { "Name": "bloodlinesae:bloodline_mud2" } }
+        ]
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "blocks": [
+        "bloodlinesae:bloodline_grass_block",
+        "bloodlinesae:bloodline_dirt",
+        "bloodlinesae:bloodline_grass_block_official",
+        "bloodlinesae:bloodline_dirt_official"
+      ]
+    },
+    "radius": 3,
+    "half_height": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "bloodlinesae:bloodline_branch_xl",
+    "bloodlinesae:bloodline_branch_large",
+    "bloodlinesae:bloodline_branch_thick",
+    "bloodlinesae:bloodline_branch_primary",
+    "bloodlinesae:bloodline_branch_medium",
+    "bloodlinesae:bloodline_branch_secondary",
+    "bloodlinesae:bloodline_branch_twig"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "feature": "bloodlinesae:bloodline_bone_pile",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
+    { "type": "minecraft:in_square" },
+    { "type": "minecraft:heightmap", "heightmap": "WORLD_SURFACE" },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": ["bloodlinesae:bloodline_grass_block", "bloodlinesae:bloodline_dirt"],
+        "offset": [0, -1, 0]
+      }
+    },
+    { "type": "minecraft:biome" }
+  ]
+}

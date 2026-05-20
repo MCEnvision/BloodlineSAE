@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.enviouse.bloodlinesae.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "bloodlinesae.refmap.json",
+  "mixins": [
+    "MultiNoiseBiomeSourceMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "feature": "bloodlinesae:bloodline_landfill",
+  "placement": [
+    { "type": "minecraft:biome" }
+  ]
+}

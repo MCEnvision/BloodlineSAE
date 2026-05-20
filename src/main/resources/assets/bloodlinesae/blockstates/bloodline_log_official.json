@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=x": { "model": "bloodlinesae:block/bloodline_log_official_horizontal", "x": 90, "y": 90 },
+    "axis=y": { "model": "bloodlinesae:block/bloodline_log_official" },
+    "axis=z": { "model": "bloodlinesae:block/bloodline_log_official_horizontal", "x": 90 }
+  }
+}

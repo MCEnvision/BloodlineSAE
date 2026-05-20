@@ -1,0 +1,87 @@
+﻿To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.8/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+MixinGradle did not locate the diffplug APT plugin, skipping eclipse task configuration
+
+> Task :downloadMcpConfig
+> Task :extractSrg UP-TO-DATE
+> Task :createMcpToSrg UP-TO-DATE
+
+> Task :compileJava
+gradlew.bat : Note: SpongePowered MIXIN Annotation Processor Version=0.8.5 (MixinGradle Version=0.7)
+At line:1 char:1
++ & "C:\Users\leanv\IdeaProjects\BloodlineSAE\gradlew.bat" -p "C:\Users ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Note: SpongePow...le Version=0.7):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Note: Supported obfuscation types: ObfuscationServiceMCP supports [notch] ObfuscationServiceFG3 supports [searge]
+Note: Loading searge mappings from C:\Users\leanv\IdeaProjects\BloodlineSAE\build\createMcpToSrg\output.tsrg
+Note: Writing refmap to C:\Users\leanv\IdeaProjects\BloodlineSAE\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing refmap to C:\Users\leanv\IdeaProjects\BloodlineSAE\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing searge composite mappings to C:\Users\leanv\IdeaProjects\BloodlineSAE\build\tmp\compileJava\compileJava-mappings.tsrg
+Note: Writing refmap to C:\Users\leanv\IdeaProjects\BloodlineSAE\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing refmap to C:\Users\leanv\IdeaProjects\BloodlineSAE\build\tmp\compileJava\compileJava-refmap.json
+Note: Writing searge composite mappings to C:\Users\leanv\IdeaProjects\BloodlineSAE\build\tmp\compileJava\compileJava-mappings.tsrg
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\block\ConnectableBranchBlock.java:41: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for 
+removal
+            new ResourceLocation(Bloodlinesae.MODID, "branch_connectable"));
+            ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\block\ModBlocks.java:192: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+                    new net.minecraft.resources.ResourceLocation(Bloodlinesae.MODID, "bloodline_tree"));
+                    ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\Bloodlinesae.java:102: warning: [removal] get() in FMLJavaModLoadingContext has been deprecated and marked for removal
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+                                                        ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\Bloodlinesae.java:122: warning: [removal] get() in ModLoadingContext has been deprecated and marked for removal
+        ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, WendigoConfig.SERVER_SPEC);
+                         ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\Bloodlinesae.java:123: warning: [removal] get() in ModLoadingContext has been deprecated and marked for removal
+        ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, WendigoClientConfig.CLIENT_SPEC);
+                         ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\Bloodlinesae.java:141: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+                    new ResourceLocation(MODID, "overworld"),
+                    ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\brain\sensor\MeatInInventorySensor.java:31: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and 
+marked for removal
+            TagKey.create(Registries.ITEM, new ResourceLocation(Bloodlinesae.MODID, "wendigo_attracts"));
+                                           ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\entity\client\WendigoModel.java:13: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for 
+removal
+            new ResourceLocation(Bloodlinesae.MODID, "geo/wendigo.geo.json");
+            ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\entity\client\WendigoModel.java:15: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for 
+removal
+            new ResourceLocation(Bloodlinesae.MODID, "textures/entity/wendigo.png");
+            ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\entity\client\WendigoModel.java:17: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for 
+removal
+            new ResourceLocation(Bloodlinesae.MODID, "animations/wendigo.animation.json");
+            ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\entity\ModEntities.java:29: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+                    .build(new ResourceLocation(Bloodlinesae.MODID, "wendigo").toString())
+                           ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\sound\ModSounds.java:33: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+        ResourceLocation id = new ResourceLocation(Bloodlinesae.MODID, name);
+                              ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\worldgen\ModBiomes.java:16: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+            new ResourceLocation(Bloodlinesae.MODID, "bloodline_forest"));
+            ^
+C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\worldgen\ModBiomes.java:20: warning: [removal] ResourceLocation(String,String) in ResourceLocation has been deprecated and marked for removal
+            new ResourceLocation(Bloodlinesae.MODID, "is_bloodline_forest"));
+            ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\leanv\IdeaProjects\BloodlineSAE\src\main\java\com\enviouse\bloodlinesae\entity\custom\WendigoEntity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+14 warnings
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 9s
+4 actionable tasks: 2 executed, 2 up-to-date

@@ -1,0 +1,72 @@
+{
+  "wendigo.breathing": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.breathing",
+    "sounds": []
+  },
+  "wendigo.footstep": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.footstep",
+    "sounds": []
+  },
+  "wendigo.sniff": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.sniff",
+    "sounds": []
+  },
+  "wendigo.growl_low": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.growl_low",
+    "sounds": []
+  },
+  "wendigo.roar": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.roar",
+    "sounds": []
+  },
+  "wendigo.scream_reveal": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.scream_reveal",
+    "sounds": []
+  },
+  "wendigo.charge_warn": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.charge_warn",
+    "sounds": []
+  },
+  "wendigo.charge_impact": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.charge_impact",
+    "sounds": []
+  },
+  "wendigo.bite_attack": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.bite_attack",
+    "sounds": []
+  },
+  "wendigo.bite_hit": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.bite_hit",
+    "sounds": []
+  },
+  "wendigo.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.death",
+    "sounds": []
+  },
+  "wendigo.death_global": {
+    "category": "ambient",
+    "subtitle": "subtitles.bloodlinesae.wendigo.death_global",
+    "sounds": []
+  },
+  "wendigo.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.bloodlinesae.wendigo.hurt",
+    "sounds": []
+  },
+  "wendigo.heartbeat": {
+    "category": "ambient",
+    "subtitle": "subtitles.bloodlinesae.wendigo.heartbeat",
+    "sounds": []
+  }
+}
